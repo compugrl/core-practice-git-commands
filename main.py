@@ -3,6 +3,7 @@ import pytest
 
 def always_returns_true():
     return True
+    print(f"Shayla was here!")
 
 
 def test_always_returns_true():
